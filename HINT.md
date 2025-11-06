@@ -1,6 +1,7 @@
 # Hint
 
-Same story as the other crew's cargo — check the manifest against what's
-actually in the hold. `git lfs ls-files` first, then look at the raw file.
-A pointer instead of real content? `git lfs pull` will fetch it from the
-LFS store.
+This draft header was never going to last. Try rebasing onto
+`cpt-webhook/root` — yes, it'll conflict, that's expected. Resolve it by
+keeping the true seal value, not the draft placeholder. After that, a
+trick you'll need is sitting on a branch that never made the main
+journal — `git branch -a` will turn it up.
