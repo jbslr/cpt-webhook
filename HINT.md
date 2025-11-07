@@ -1,7 +1,8 @@
 # Hint
 
-This is the corrected master log, seal placeholder and all. If your own
-draft conflicted getting here, resolve it by keeping the true seal
-value, not the placeholder. Once you're caught up: a trick that never
-made the main journal is sitting on its own branch somewhere —
-`git branch -a` will turn it up. Bring it home with a cherry-pick.
+Merge each crew's resolved branch in here, one at a time — expect a
+conflict each time, and resolve it by keeping both sides' true values.
+Once both are in, one value is still missing: it doesn't live on this
+log at all. Ms. Semicolon's repository has a branch with exactly the
+piece you need — `git remote add`, `git fetch`, and `git cherry-pick`
+it in once you know which branch to ask for.
